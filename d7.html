@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da6</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        main{
+            margin-top: 260px;
+        }
+        p{
+            text-align: justify;
+            line-height: 1.sem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 20px;
+        }
+        a{
+            text-decoration: rgb(0, 0, 0);
+        }
+        a:hover{
+            color: rgb(255, 255, 255);
+        }
+        .menu_top{
+            width: 100%;
+           height: 170px;
+           border-bottom: 3px solid rgb(255, 255, 255);
+           border-top: 10px solid rgb(0, 0, 0);
+           background-color: #ffffff;
+        }
+        .top_esp{
+            width: 140px;
+            float: left;
+            padding: 10px;
+        }
+        .top_dir{
+            float: left;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:100px;
+            color: rgb(0, 0, 0);
+            padding-left: 80px;
+            padding-top: 20px;
+        }
+        .menu_down{
+            background: rgb(0, 0, 0);
+            height: 90px;
+            text-align: center;
+        }
+        .menu{
+            position: relative;
+            top: 15px;
+            border-radius: solid 2px rgb(0, 0, 0);
+            padding: 10px;
+        }
+        .clear{clear: both;}
+        .box-busca{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.search-box-input::placeholder {
+    
+    color:#ffffff;
+    opacity: 0.6;
+}
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder { color: #ffffff; }
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+.search-box form {
+    
+    display: flex;
+    border-radius: 50px;
+    background-color: #4c4c4c;
+    height: 45px;
+}
+.search-box:hover .search-box-input {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+}
+.search-box-input {
+    outline: 0;
+    font-size: 1.2em;
+    color: #fff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+}
+.search-box-button {
+   display: flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color: rgb(53, 53, 213);
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+}
+.search-box-button:active  {
+    transform: scale(.85);
+}
+.search-box-icone {
+    margin: auto;
+    color: #fff;
+}
+@media screen and (min-width: 400px){
+    
+    .search-box:hover .search-box-input {
+        width: 360px;
+    }
+}
+    </style>
+</head>
+<body>
+  <header>
+    <div class="menu_top">
+        <div class="top_esp">
+            <figure>
+                <img src="img/Ns.png" alt="logo" height="140px">
+            </figure>
+        </div>
+        <div class="top_dir">
+            notícias semanais
+        </div>
+        <div class="clear"></div>
+        <div class="menu_down">
+            <nav>
+                <span class="menu"><a href="#">home</a></span>
+                <span class="menu"><a href="#">menu</a></span>
+               
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="box-busca">
+        <div class="search-box">
+            
+            <form method="post" action="#">
+                <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+            
+            </form>
+            
+        </div><!-- Search -->
+    
+    </div><!--Box Busca-->
+  </header>
+  <main>
+    <div class="meio">
+        <p>As fortes chuvas no Rio Grande do Sul deixaram marcas de destruição por todo o estado. Imagens de cidades completamente alagadas, bairros da capital evacuados, pontos turísticos e arenas esportivas cobertos de água impressionam. A seguir, veja o impacto da água em alguns pontos do estado.
+            O gramado do estádio do Grêmio está encoberto pela água. No Centro de Treinamento da base, localizado em Eldorado do Sul, um dos municípios mais afetados pela enchente, cerca de 80 pessoas ficaram ilhadas, entre jogadores e funcionários, recebendo alimentos de forma área.</p>
+    </div>
+  </main>  
+  <footer>
+  </footer>
+  <CENTER>
+  <img src="img/C.webp"height="300px">
+  <img src="img/C1.webp"height="300px">
+  <BR>
+   <H2>Em entrevista à Record News, nesta terça-feira (7), o hidrólogo do Centro Nacional de Monitoramento e Alertas de Desastres Naturais, Jorge Barbarotto explicou o porquê os volumes de água não estão reduzindo após as fortes chuvas no Rio Grande do Sul. Segundo Barbarotto, a localização geográfica do estado dificulta o escoamento da água, principalmente Porto Alegre. O hidrólogo explicou que as bacias da região norte do Rio Grande do Sul são drenadas para a capital, o que normalmente não apresenta um perigo, mas devido às constantes e fortes chuvas acabou resultando na enchente que atingiu quase todo o estado.</H2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AQkDKumJ3ec?si=avzW6LQ16cWfWV8H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></CENTER>
+</body>
+</html>

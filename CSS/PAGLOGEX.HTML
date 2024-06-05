@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: darkslateblue;
+            background-image: url(img/P.jpg);
+        }
+
+        #PRINCIPAL {
+            width: 40%;
+            height: 300PX;
+            background-color: azure;
+            margin: 0 auto;
+            margin-top: 120PX;
+            border-radius: 15PX;
+            min-width: 400PX;
+            max-width: 600PX;
+            text-align: center;
+        }
+
+        #PRINCIPAL IMG {
+            width: 120px;
+            margin-top: -60PX;
+            margin-bottom: 30px;
+        }
+
+        input {
+            width: 80%;
+            height: 40PX;
+            font-size: 18PX;
+            margin-bottom: 10PX;
+            background-color: aliceblue;
+            padding-left: 40px;
+            border: NONE;
+        }
+
+        input.EMAIL {
+            background-image: url(img/CAD.webp);
+            background-repeat: no-repeat;
+            background-position: 10PX;
+        }
+
+        input.SENHA {
+            background-image: url(img/CAD.webp);
+            background-repeat: no-repeat;
+            background-position: 10PX;
+        }
+
+        INPUT.SUBMIT {
+            color: aliceblue;
+            background-color: chocolate;
+            border: 2PX solid chocolate;
+            padding: 5PX 20PX;
+            height: 45PX;
+            width: 90%;
+            background: linear-gradient(TO BOTTOM, chocolate, chocolate);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <img src="Image/profile.png">
+
+        <form method="post" action="#">
+
+            <div>
+
+                <input class="email" type="text" name="email" id="email" placeholder="Digite seu E-mail" required>
+
+            </div>
+
+            <div>
+
+                <input class="password" type="password" name="password" id="password" placeholder="Enter your password"
+                    required>
+
+            </div>
+
+            <div>
+
+                <input class="submit" type="submit" value="logar">
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
